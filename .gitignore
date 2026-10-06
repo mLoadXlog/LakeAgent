@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# runtime data (config.json + generated images)
+lakeagent_data/
+
+# build output
+build/
+dist/
+shots/
+*.spec.bak
+
+# local icons used only by build.py
+icon.ico
+icon.png
+icon.jpg
